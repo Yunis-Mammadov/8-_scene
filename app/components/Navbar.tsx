@@ -27,7 +27,7 @@ export default function Navbar() {
 
                 <a href="/" className="flex items-center justify-center">
                     <img
-                        src="8.5_logo.png"
+                        src="/8.5_logo.png"
                         alt="8½ Scene Logo"
                         className="h-12 md:h-14"
                     // className="h-12 md:h-14 bg-amber-400"

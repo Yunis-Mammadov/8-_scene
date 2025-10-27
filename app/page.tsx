@@ -1,3 +1,5 @@
+"use client"
+
 export default function Home() {
   return (
     <div style={{
@@ -8,69 +10,69 @@ export default function Home() {
         {/* grid: mobile 1, small 2, md 4 */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 place-items-stretch">
 
-          <a href="/who-is-in-the-box" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
+          <a href="/quiz/who-box/rules" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
             <img
               className="w-full object-cover"
               src="https://futbol-11.com/media/thumbnail/legacy.webp"
               alt=""
             />
             <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
-              <h2 className="text-lg font-semibold text-white">PLAY</h2>
-              <p className="text-base text-white">Who is in the Box?</p>
+              <h2 className="text-sm md:text-lg font-semibold text-white">PLAY</h2>
+              <p className="text-sm md:text-lg text-white">Who is in the Box?</p>
             </div>
           </a>
-          <a href="/agent009" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
+          <a href="/quiz/agent007/rules" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
             <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
             <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
-              <h2 className="text-lg font-semibold text-white">PLAY</h2>
-              <p className="text-base text-white">Who is in the Box?</p>
-            </div>
-          </a>
-
-          <a href="/bird-box" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
-            <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
-            <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
-              <h2 className="text-lg font-semibold text-white">PLAY</h2>
-              <p className="text-base text-white">Who is in the Box?</p>
-            </div>
-          </a>
-          <a href="/cine-bingo" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
-            <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
-            <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
-              <h2 className="text-lg font-semibold text-white">PLAY</h2>
-              <p className="text-base text-white">Who is in the Box?</p>
+              <h2 className="text-sm md:text-lg font-semibold text-white">PLAY</h2>
+              <p className="text-sm md:text-lg text-white">Agent 007</p>
             </div>
           </a>
 
-          <a href="/recommendman" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
+          <a href="quiz/blind-box/rules" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
             <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
             <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
-              <h2 className="text-lg font-semibold text-white">PLAY</h2>
-              <p className="text-base text-white">Who is in the Box?</p>
+              <h2 className="text-sm md:text-lg font-semibold text-white">PLAY</h2>
+              <p className="text-sm md:text-lg text-white">Blind Box</p>
+            </div>
+          </a>
+          <a href="quiz/cine-bingo/rules" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
+            <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
+            <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
+              <h2 className="text-sm md:text-lg font-semibold text-white">PLAY</h2>
+              <p className="text-sm md:text-lg text-white">Cine Bingo</p>
             </div>
           </a>
 
-          <a href="/top10" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
+          <a href="quiz/recommendman/rules" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
             <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
             <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
-              <h2 className="text-lg font-semibold text-white">PLAY</h2>
-              <p className="text-base text-white">Who is in the Box?</p>
+              <h2 className="text-sm md:text-lg font-semibold text-white">PLAY</h2>
+              <p className="text-sm md:text-lg text-white">RecommendMan</p>
             </div>
           </a>
 
-          <a href="/wordle" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
+          <a href="/quiz/top10/rules" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
             <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
             <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
-              <h2 className="text-lg font-semibold text-white">PLAY</h2>
-              <p className="text-base text-white">Who is in the Box?</p>
+              <h2 className="text-sm md:text-lg font-semibold text-white">PLAY</h2>
+              <p className="text-sm md:text-lg text-white">Top10</p>
             </div>
           </a>
 
-          <a href="/hero-universe" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
+          <a href="quiz/wordle/rules" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
             <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
             <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
-              <h2 className="text-lg font-semibold text-white">PLAY</h2>
-              <p className="text-base text-white">Who is in the Box?</p>
+              <h2 className="text-sm md:text-lg font-semibold text-white">PLAY</h2>
+              <p className="text-sm md:text-lg text-white">Wordle</p>
+            </div>
+          </a>
+
+          <a href="quiz/hero-universe/rules" className="bg-[#18173d] block rounded overflow-hidden shadow-sm w-full">
+            <img className="w-full object-cover" src="https://futbol-11.com/media/thumbnail/legacy.webp" alt="" />
+            <div className="py-1 flex flex-col gap-1 bg-[#9c2e87] text-center h-full">
+              <h2 className="text-sm md:text-lg font-semibold text-white">PLAY</h2>
+              <p className="text-sm md:text-lg text-white">Hero Universe</p>
             </div>
           </a>
 
