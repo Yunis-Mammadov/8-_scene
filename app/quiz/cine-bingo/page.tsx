@@ -20,7 +20,6 @@ export default function CineBingo() {
   cardsRef.current = cards;
   currentDirectorRef.current = currentDirector;
 
-  // --- Restore state ---
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
@@ -50,7 +49,6 @@ export default function CineBingo() {
     setCurrentDirector(dir);
   }, []);
 
-  // --- Timer ---
   useEffect(() => {
     if (gameResult) return;
     const interval = setInterval(() => {
@@ -78,7 +76,6 @@ export default function CineBingo() {
     return () => clearInterval(interval);
   }, [gameResult]);
 
-  // --- Save state on card update ---
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
@@ -214,7 +211,7 @@ export default function CineBingo() {
           {gameResult && (
             <a
               href="/"
-              className="bg-[#9c2e87] text-white px-3 py-2 rounded cursor-pointer text-center"
+              className="bg-yellow-400 text-black px-3 py-2 rounded cursor-pointer text-center"
             >
               Go to Main Menu
             </a>

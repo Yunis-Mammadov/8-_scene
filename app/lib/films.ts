@@ -1,4 +1,4 @@
-export const dailyDate = "2025-10-26";
+export const dailyDate = "2025-10-28";
 
 
 export const films = [
